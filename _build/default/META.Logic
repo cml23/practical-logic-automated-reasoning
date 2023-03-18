@@ -1,0 +1,6 @@
+description = ""
+requires = ""
+archive(byte) = "practicalLogic.cma"
+archive(native) = "practicalLogic.cmxa"
+plugin(byte) = "practicalLogic.cma"
+plugin(native) = "practicalLogic.cmxs"

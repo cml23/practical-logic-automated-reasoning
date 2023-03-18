@@ -1,0 +1,3 @@
+(library
+ (name practicalLogic)
+ (public_name Logic))

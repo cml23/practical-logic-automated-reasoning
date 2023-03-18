@@ -1,0 +1,2 @@
+(** @canonical PracticalLogic.Chapter1 *)
+module Chapter1 = PracticalLogic__Chapter1

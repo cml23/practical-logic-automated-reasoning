@@ -1,0 +1,25 @@
+(lang dune 2.9)
+(name Logic)
+(library
+ (name Logic)
+ (kind normal)
+ (archives (byte practicalLogic.cma) (native practicalLogic.cmxa))
+ (plugins (byte practicalLogic.cma) (native practicalLogic.cmxs))
+ (native_archives practicalLogic.a)
+ (main_module_name PracticalLogic)
+ (modes byte native)
+ (modules
+  (wrapped
+   (main_module_name PracticalLogic)
+   (modules
+    ((name Chapter1)
+     (obj_name practicalLogic__Chapter1)
+     (visibility public)
+     (impl)))
+   (alias_module
+    (name PracticalLogic)
+    (obj_name practicalLogic)
+    (visibility public)
+    (kind alias)
+    (impl))
+   (wrapped true))))

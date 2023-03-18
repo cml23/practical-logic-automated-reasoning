@@ -1,0 +1,19 @@
+lib: [
+  "_build/install/default/lib/Logic/Chapter1.ml"
+  "_build/install/default/lib/Logic/META"
+  "_build/install/default/lib/Logic/dune-package"
+  "_build/install/default/lib/Logic/opam"
+  "_build/install/default/lib/Logic/practicalLogic.a"
+  "_build/install/default/lib/Logic/practicalLogic.cma"
+  "_build/install/default/lib/Logic/practicalLogic.cmi"
+  "_build/install/default/lib/Logic/practicalLogic.cmt"
+  "_build/install/default/lib/Logic/practicalLogic.cmx"
+  "_build/install/default/lib/Logic/practicalLogic.cmxa"
+  "_build/install/default/lib/Logic/practicalLogic.ml"
+  "_build/install/default/lib/Logic/practicalLogic__Chapter1.cmi"
+  "_build/install/default/lib/Logic/practicalLogic__Chapter1.cmt"
+  "_build/install/default/lib/Logic/practicalLogic__Chapter1.cmx"
+]
+libexec: [
+  "_build/install/default/lib/Logic/practicalLogic.cmxs"
+]
